@@ -1,0 +1,259 @@
+html, body {
+    padding: 0;
+    margin:  0;
+}
+
+body {
+    background-color: #394251;
+}
+
+.sirinaStranice{
+    width: 978px;
+    margin: auto;
+}
+
+
+#div_meni ul {
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+#div_meni ul li {
+    display: inline;
+    list-style: none;
+}
+#div_meni ul li a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding: 10px;
+    color: #888888;
+
+    border-right: 1px solid white;
+    
+}
+#div_meni ul li a:hover{
+    color: #82B440;
+}
+
+#activePage {
+    border-left: 1px solid white;
+    color: #82B440 !important;
+}
+
+
+
+#velikaSLika {
+    position: relative;
+    text-align: center;
+    color: white
+}
+
+#textPrekoSlike {
+    position: absolute;
+    top: 80px;
+    color: white;
+    left: 50%;
+    transform: translate(-489px, 0)
+}
+
+.dugme {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#dugme_1 {
+    background-color: #82B440;
+    color: white;
+    border-radius: 5px;
+}
+#dugme_2 {
+    background-color:white;
+    color: #82B440;
+    border-radius: 5px;
+}
+
+#logo{
+  width: 70px;
+  position: relative;
+  left:  920px;
+  top: -35px;
+}
+
+.col{
+    float: left;
+    width: 300px;
+    height: 350px;
+}
+
+.clear{
+    clear: both;
+    
+    
+}
+.col{
+    background: white;
+    margin: 5px;
+    
+}
+#srednjaKolona{
+   margin-left: 24px;
+   margin-right: 24px;
+   
+}
+.okvirOpisaSlike h3{
+    margin: 0px;
+}
+
+.okvirOpisaSlike{
+    padding: 5px;
+}
+
+.lista{
+    list-style: upper-roman;
+   
+}
+
+.okvirSlike3{
+    padding-left: 10px;
+
+    
+    
+}
+
+.kalendar{
+   padding-top: 30px;
+   background: whitesmoke;
+   margin-top: 45px;
+}
+.kal{
+    
+    margin-left: 250px;
+    width: 350px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+}
+.prva .treca{
+   background: ghostwhite; 
+}
+table {
+   
+    border: 0.1px solid gray;
+    width: 200px;
+}
+
+.druga{
+    
+    background: white;
+}
+.crno{
+    background: black;
+   color: white;
+}
+
+.par1{
+ 
+  
+    
+    margin-left: 250px;
+    margin-top: auto;
+    
+    
+}
+
+h4{
+    color: white;
+}
+
+
+.snowflakes {
+	width: 100%; height: 1200px;
+	position: absolute; top: -90px; left: 0;
+}
+
+i, i:after, i:before { background: white; }
+i {
+	display: inline-block;
+	-webkit-animation: snowflakes 3s linear 2s 20;
+	-moz-animation: snowflakes 3s linear 2s 20;
+	position: relative;
+}
+i:after, i:before {
+	height: 100%;
+	width: 100%;
+	content: ".";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	-webkit-transform: rotate(120deg);
+}
+i:before { -webkit-transform: rotate(240deg); }
+
+@-webkit-keyframes snowflakes {
+	0% {
+		-webkit-transform: translate3d(0,0,0) rotate(0deg) scale(0.6);
+	}
+	100% {
+		-webkit-transform: translate3d(15px, 1200px, 0px) rotate(360deg) scale(0.6);
+	}
+}
+
+.snowflakes i:nth-child(3n) {
+	width: 16px; height: 4px;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-iteration-count: 30;
+	-webkit-transform-origin: right -45px;
+}
+
+.snowflakes i:nth-child(3n+1) {
+	width: 24px; height: 6px;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-iteration-count: 45;
+	-webkit-transform-origin: right -30px;
+}
+
+.snowflakes i:nth-child(3n+2) {
+	width: 32px; height: 8px;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: 60;
+	-webkit-transform-origin: right -15px;
+}
+	
+
+.snowflakes i:nth-child(7n) {
+  opacity:.3;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-timing-function:ease-in;
+}
+.snowflakes i:nth-child(7n+1) {
+  opacity:.4;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-timing-function:ease-out;
+}
+.snowflakes i:nth-child(7n+2) {
+  opacity:.5;
+  -webkit-animation-delay: 1.5s;
+  -webkit-animation-timing-function:linear;
+}
+.snowflakes i:nth-child(7n+3) {
+  opacity:.6;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-timing-function:ease-in;
+}
+.snowflakes i:nth-child(7n+4) {
+  opacity:.7;
+  -webkit-animation-delay: 2.5s;
+  -webkit-animation-timing-function:linear;
+}
+.snowflakes i:nth-child(7n+5) {
+  opacity:.8;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-timing-function:ease-out;
+}
+.snowflakes i:nth-child(7n+6) {
+  opacity:.9;
+  -webkit-animation-delay: 3.5s;
+  -webkit-animation-timing-function:ease-in;
+}
