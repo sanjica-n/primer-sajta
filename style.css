@@ -154,17 +154,58 @@ table {
 }
 
 .par1{
- 
-  
-    
+    text-align: justify;
     margin-left: 250px;
     margin-top: auto;
-    
+    margin-right: 15px;
+    padding-bottom: 30px;
     
 }
 
 h4{
     color: white;
+    margin-left: 120px;
+}
+
+fieldset{
+    width: 400px;
+    border: transparent;
+    margin-left: 100px;
+    
+}
+.unos1, .unos2 {
+    background: #59667e;
+    color: lightgrey;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    padding-left: 2px;
+}
+.dugme3{
+    background-color: #82B440;
+    color: white;
+    border-radius: 5px; 
+    margin: 5px;
+    height: 30px;
+    width: 70px;
+}
+
+footer{
+    
+    border-top: 1px solid #59667e;
+    
+}
+
+.futer{
+    
+    color: #59667e;
+    margin-left: 80px;
+}
+
+
+.deset{
+    color: red;
 }
 
 
